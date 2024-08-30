@@ -8,3 +8,5 @@ const getAllContacts = async () => {
 };
 
 export default getAllContacts;
+
+console.log(await getAllContacts());
